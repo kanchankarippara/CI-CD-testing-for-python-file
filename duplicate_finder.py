@@ -31,6 +31,3 @@ if __name__ == "__main__":
     dupes = find_duplicates(sample_list)
     print("Duplicates found:", dupes)
 print("Done scanning for duplicates.")
-
-
-
