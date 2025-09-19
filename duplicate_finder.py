@@ -1,3 +1,4 @@
+"""This module handles user authentication and session management."""
 # duplicate_finder.py
 
 def find_duplicates(input_list):
@@ -19,3 +20,4 @@ if __name__ == "__main__":
 
     dupes = find_duplicates(sample_list)
     print("Duplicates found:", dupes)
+
