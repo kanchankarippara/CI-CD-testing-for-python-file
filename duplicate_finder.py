@@ -2,6 +2,16 @@
 # duplicate_finder.py
 
 def find_duplicates(input_list):
+    """
+    Scans the given file for duplicate entries and returns a list of duplicates.
+
+    Args:
+        file_path (str): Path to the file to be scanned.
+
+    Returns:
+        list: A list of duplicate entries found in the file.
+    """
+    # Your function logic here
     seen = set()
     duplicates = set()
 
@@ -20,4 +30,7 @@ if __name__ == "__main__":
 
     dupes = find_duplicates(sample_list)
     print("Duplicates found:", dupes)
+print("Done scanning for duplicates.")
+
+
 
